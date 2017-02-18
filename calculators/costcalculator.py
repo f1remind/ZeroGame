@@ -19,7 +19,7 @@ The "level" parameter calculates the price to upgrade TO the given level.'''
     #MetalMine
     if techid == 0 or techid == 1:
         costs[0] = int(40*1.5**level)
-        costs[1] = int(15*1.5**level)
+        costs[1] = int(10*1.5**level)
 
     #CrystalMine
     elif techid == 2:
